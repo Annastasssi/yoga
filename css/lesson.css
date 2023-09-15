@@ -1,0 +1,144 @@
+.lesson{
+  margin-top: -3px;
+  background: linear-gradient(to bottom, #689BD8   0.01%, #8bbcf7 100%);
+}
+.text_lesson{
+  text-align: center;
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1.8px;
+  text-transform: uppercase;
+  padding: 63px 321px 52px 0;
+}
+.question{
+  color: #21357E;
+  font-size: 40px;
+}
+.inform{
+  color: #e3f0f3;
+  font-size: 40px;
+}
+.video{
+  width: 100%;
+  padding-bottom: 34px;
+}
+@media screen and (max-width: 1648px ){
+  .text_lesson{
+    padding: 63px 0 52px 0;
+  }
+}
+@media screen and (max-width: 1616px ){
+  .question{
+   font-size: 35px;
+  }
+  .inform{
+    font-size: 35px;
+  } 
+}
+@media screen and (max-width: 1408px ){
+  .text_lesson {
+    padding: 8px 275px 40px 0;
+  }
+}
+@media screen and (max-width: 1290px ){
+  .text_lesson{
+    padding: 8px 31px 40px 0;
+  }
+  .question{
+    font-size: 30px;
+  }
+   .inform{
+     font-size: 30px;
+  } 
+}
+@media screen and (max-width: 1214px ){
+  .text_lesson {
+    padding: 9px 21px 40px 0;
+  }
+}
+
+@media screen and (max-width: 930px ){
+  .question{
+    font-size: 25px;
+  }
+   .inform{
+     font-size: 25px;
+  } 
+} 
+@media screen and (max-width: 861px ){
+  .question{
+    font-size: 20px;
+  }
+   .inform{
+     font-size: 20px;
+  } 
+  .lesson{
+    margin-top: -5px;
+  }
+}
+@media screen and (max-width: 859px ){
+  .text_lesson {
+    padding: 40px 31px 40px 0;
+  }
+  .lesson{
+    margin-top: -72px;
+  }
+}
+@media screen and (max-width: 753px ){
+  .text_lesson {
+    padding: 40px 31px 40px 0;
+  }
+  .lesson{
+    margin-top: -70px;
+  }
+}
+@media screen and (max-width: 699px ){
+  .question{
+    font-size: 20px;
+  }
+   .inform{
+     font-size: 20px;
+  } 
+}
+@media screen and (max-width: 621px ){
+  .question{
+    font-size: 15px;
+  }
+   .inform{
+     font-size: 15px;
+  } 
+}
+
+@media screen and (max-width: 477px ){
+  .text_lesson {
+    padding: 62px 31px 19px 0;
+  }
+  .question{
+    font-size: 10px;
+  }
+   .inform{
+     font-size: 10px;
+  } 
+  .text_lesson{
+    letter-spacing: 0;
+  }
+  .video{
+    padding-bottom: 15px;
+  }
+}
+@media screen and (max-width: 391px ){
+  .text_lesson {
+    padding: 62px 31px 19px 0;
+  }
+  .question{
+    font-size: 8px;
+  }
+   .inform{
+     font-size: 8px;
+  } 
+
+  .video{
+    padding-bottom: 10px;
+  }
+}

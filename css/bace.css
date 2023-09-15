@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Philosopher', sans-serif;
+  max-width: 1800px;
+  line-height: 132%; 
+}
+.container{
+  margin-bottom: 0;
+}
+/* section{
+  margin-bottom: 249px;
+} */
+/* @media screen and (max-width: 1848px ){
+  section{
+    margin-bottom: 220px;
+  }
+}
+@media screen and (max-width: 1832px ){
+  section{
+    margin-bottom: 189px;
+  }
+}
+@media screen and (max-width: 1824px ){
+  section{
+    margin-bottom: 149px;
+  }
+}
+@media screen and (max-width: 1581px ){
+  section{
+    margin-bottom: 109px;
+  }
+}
+@media screen and (max-width: 1541px ){
+  section{
+  margin-bottom: 111px;
+  }
+}
+@media screen and (max-width: 1537px ){
+  section{
+  margin-bottom: 56px;
+  }
+}
+@media screen and (max-width: 1492px ){
+  section{
+  margin-bottom: 135px;
+  }
+}
+@media screen and (max-width: 1417px ){
+  section{
+  margin-bottom: 86px;
+  }
+} */
+/* @media screen and (max-width: 1200px ){
+  section{
+  margin-bottom: 161px;
+  }
+}
+
+@media screen and (max-width: 1158px ){
+  section{
+  margin-bottom: 139px;
+  }
+}
+@media screen and (max-width: 1124px ){
+  section{
+  margin-bottom: 104px;
+  }
+} */
+/* @media screen and (max-width: 1032px ){
+  section{
+  margin-bottom: 55px;
+  }
+}
+@media screen and (max-width: 1082px ){
+  section{
+  margin-bottom: 127px;
+  }
+}
+@media screen and (max-width: 1082px ){
+  section{
+  margin-bottom: 136px;
+  }
+}
+
+@media screen and (max-width: 971px ){
+  section{
+  margin-bottom: 118px;
+  }
+}
+@media screen and (max-width: 875px ){
+  section{
+  margin-bottom: 98px;
+  }
+}
+@media screen and (max-width: 500px){
+  section {
+    margin-bottom: 41px;
+  }
+}
+
+@media screen and (max-width: 477px){
+  section {
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 470px){
+  section {
+    margin-bottom: 12px;
+  }
+} */

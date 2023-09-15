@@ -1,0 +1,270 @@
+.header{
+  background-color:#5C6378;
+  display: flex;
+  max-width: 2071px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  justify-content: start;
+  margin: 0 60px 0 100px;
+}
+
+.menu{
+ display: flex;
+ margin: auto;
+ justify-content: center;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: #FBFBFD;
+}
+
+.menu item_link{
+  display: flex;
+  align-items: center;
+}
+
+.social{
+  justify-content: end;
+  margin: 50px 120px 20px 100px;
+}
+
+.social_icon{
+  padding: 0 10px 0 0;
+}
+.button{
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  padding: 20px 100px;
+  margin: 40px 20px;
+  width: 313px;
+  height: 74px;
+  font-size: 30px;
+  color: #E6E6E6;
+  letter-spacing: 2px;
+  border: none;
+  border-radius:25px;
+  background: radial-gradient(#7689c2, #405697);
+}
+@media screen and (max-width: 1627px ){
+  .menu{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1400px ){
+  .menu{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1276px ){
+  .logo{
+    margin: auto;
+  }
+  .social{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1036px ){
+  .logo-images{
+    max-width: 145px;
+  }
+
+  .menu{
+    font-size: 15px;
+  }
+
+  .social_icon{
+    max-width: 35px;
+    max-height: 25px;
+  }
+}
+@media screen and (max-width: 832px ){
+  .logo-images{
+    max-width: 93px;
+  }
+
+  .menu{
+    font-size: 12px;
+  }
+
+  .social_icon{
+    max-width: 25px;
+    max-height: 15px;
+  }
+}
+
+@media screen and (max-width: 600px ){
+  .menu{
+    font-size: 10px;
+  }
+
+  .logo-images{
+    max-width: 73px;
+  }
+}
+
+@media screen and (max-width: 519px ){
+  .menu{
+    font-size: 8px;
+  }
+
+  .logo-images{
+    max-width: 53px;
+  }
+
+  .social_icon{
+    max-width: 21px;
+    max-height: 12px;
+    margin: 0 -2px 0 -3px;
+    padding: 0 3px 0 7px;
+    }
+
+}
+
+@media screen and (max-width: 379px ){
+  .menu{
+    font-size: 6px;
+  }
+
+  .logo-images{
+    max-width: 43px;
+  }
+}
+
+
+@media screen and (max-width: 279px ){
+  .menu{
+    font-size: 4px;
+  }
+
+  .logo-images{
+    max-width: 33px;
+  }
+
+  .social_icon{
+    max-width: 19px;
+    max-height: 10px;
+    margin: 0 -2px 0 -3px;
+    padding: 0 3px 0 7px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1742px ){
+  .button{
+    padding: 25px 100px;
+    margin: 30px 25px;
+    width: 290px;
+    height: 64px;
+    font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1510px ){
+  .button{
+    padding: 3px 75px 10px;
+    margin: 0px 20px;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1346px ){
+  .button{
+    padding: 10px 75px 10px;
+    margin: 0px 20px;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;}
+  }
+
+@media screen and (max-width: 1200px ){
+  .button{
+    padding: 10px 60px 10px;
+    max-width: 190px;
+    max-height: 50px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1082px ){
+  .button{
+    padding: 10px 50px 10px;
+    max-width: 170px;
+    max-height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 944px ){
+  .button{
+    padding: 10px 40px 10px;
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .button {
+    padding: 8px 30px 10px;
+    font-size: 10px;
+    height: 25px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 735px){
+  .button {
+    padding: 4px 26px 4px;
+    font-size: 9px;
+    height: 20px;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 652px){
+  .button {
+    padding: 5px 18px 4px;
+    font-size: 8px;
+    height: 18px;
+    width: 65px;
+    letter-spacing: 0;
+    margin: 0px 15px;
+  }
+}
+
+@media screen and (max-width: 553px){
+  .button {
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 445px){
+  .button {
+    font-size: 7px;
+    height: 15px;
+    width: 58px;
+  }
+}
+
+@media screen and (max-width: 361px){
+  .button {
+    font-size: 5px;
+    height: 10px;
+    width: 48px;
+    padding: 3px 15px 4px;
+  }
+}
+
+@media screen and (max-width: 338px){
+  .button {
+    height: 8px;
+    width: 45px;
+    padding: 3px 13px 4px;
+  }
+}

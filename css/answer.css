@@ -1,0 +1,176 @@
+.container_answer{
+  background-color: #83b7f3;
+  position: relative;
+  text-align: center;
+  display: flex;
+  margin-top: -2px;
+  margin-bottom: 0;
+}
+.answer{
+  color: #292424;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  text-transform: uppercase;
+  padding: 208px 141px 61px 50px;
+}
+.answer_foto{
+  width: 50%;
+}
+.answer-button{
+  margin: 255px 20px 10px -323px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  width: 76%;
+  height: 13%;
+  font-size: 30px;
+  color: #E6E6E6;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 25px;
+  background: radial-gradient(#7689c2, #405697);
+}
+
+@media screen and (max-width: 1656px ){
+  .answer-button{
+    margin: 136px 20px 10px -323px;
+  }
+  .answer{
+    font-size: 37px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1572px ){
+  .answer{
+    font-size: 35px;
+  }
+  .answer_foto {
+    width: 53%;
+  }
+}
+
+@media screen and (max-width: 1360px ){
+  .answer{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1344px ){
+  .answer{
+    padding: 139px 0px 43px 0px;
+  }
+  .answer-button{
+    font-size: 25px;
+  }
+  /* .mandala_left{
+    display: none;
+  } */
+  .answer-button{
+    margin: 0 20px 10px -16px;
+  }
+}
+@media screen and (max-width: 1200px ){
+  .answer-button{
+    font-size: 18px;
+  }
+  .answer{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1071px ){
+  .answer-button{
+    font-size: 15px;
+  }
+  .answer{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 992px ){
+  .answer-button{
+    width: 68%;
+    height: 10%;
+  }
+}
+@media screen and (max-width: 849px ){
+  .answer{
+    font-size: 18px;
+    padding: 139px 25px 43px 25px;
+  }
+  .answer-button {
+    font-size: 10px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 735px ){
+.answer-button {
+  margin: 0 20px 10px -71px;
+  }
+}
+@media screen and (max-width: 708px){
+.answer {
+    font-size: 18px;
+    padding: 61px 25px 43px 25px;
+  }
+}
+
+@media screen and (max-width: 681px){
+  .answer {
+    font-size: 15px;
+    padding: 113px 25px 43px 25px;
+  }
+  .answer-button {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 560px){
+  .answer-button {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 515px){
+  .answer_foto {
+    width: 50%;
+  }
+  .answer-button {
+    margin: 0 -9px 10px -71px;
+  }
+  .answer{
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+}
+@media screen and (max-width: 483px){
+  .answer{
+    font-size: 8px;
+    letter-spacing: 0;
+    padding: 63px 25px 43px 25px;
+  }
+}
+@media screen and (max-width: 447px){
+.answer-button {
+    font-size: 5px;
+  }
+  .answer {
+
+    padding: 40px 25px 43px 25px;
+  }
+}
+@media screen and (max-width: 370px){
+.answer-button {
+    font-size: 4px;
+  }
+}
+@media screen and (max-width: 358px){
+.answer {
+    font-size: 6px;
+    padding: 29px 25px 33px 25px;
+  }
+  .answer-button {
+    font-size: 3px;
+  }
+}
+@media screen and (max-width: 328px){
+.answer-button {
+    margin: 0 -33px 10px -71px;
+  }
+}

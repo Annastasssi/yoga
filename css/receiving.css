@@ -1,0 +1,188 @@
+.container-receiving{
+  background: linear-gradient(to bottom, #BBC9F4 0.01%, #8bbcf7 100%);
+  margin-top: -11px;
+  margin-bottom: -2px;
+}
+.receiving-info{
+  display: flex;
+}
+.receiving-intro{
+  display: block;
+}
+.receiving-info_name{
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  margin: 48px 0 31px 0;
+  font-weight: 400;
+  letter-spacing: -0.81px;
+  text-transform: uppercase;
+}
+.uoga_regeiving{
+  width: 50%;
+  height: 50%;
+}
+
+.receiving{
+  background: linear-gradient(to bottom, #2d63aa 0,20%, #429cee03);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  border-radius: 18px;
+  height: 13%;
+  padding-top: 20px;
+}
+.button_receiving{
+  margin: 50px 0 10px 6px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  width: 98%;
+  height: 8%;
+  font-size: 30px;
+  color: #E6E6E6;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 25px;
+  background: radial-gradient(#7689c2, #405697);
+}
+@media screen and (max-width: 1770px ){
+  .receiving{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1629px ){
+  .receiving{
+    font-size: 25px;
+  }
+  .button_receiving{
+    margin: 32px 0 10px 6px;
+  }
+  .receiving-info_name{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1533px ){
+  .receiving {
+    font-size: 23px;
+  }
+  .button_receiving {
+    margin: 24px 0 0 8px;
+  }
+}
+@media screen and (max-width: 1400px ){
+  .receiving{
+    font-size: 20px;
+    height: 14%;
+    padding-top: 27px;
+  }
+  .button_receiving{
+    margin: 0;
+  }
+  .receiving-info_name{
+    font-size: 30px;
+    margin: 24px 0 31px 0;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+}
+@media screen and (max-width: 1341px ){
+  .button_receiving{
+    font-size: 25px;
+    height: 7%;
+  }
+}
+@media screen and (max-width: 1233px ){
+  .receiving {
+    font-size: 17px;
+    height: 12%;
+    padding-top: 30px;
+  }
+  .button_receiving{
+    font-size: 20px;
+  }
+  .receiving-info_name{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1182px ){
+  .receiving {
+    font-size: 15px;
+    padding-top: 23px;
+    height: 13%;
+  }
+}
+@media screen and (max-width: 999px ){
+  .receiving{
+    font-size: 13px;
+    padding-top: 20px;
+    height: 12%;
+  }
+  .button_receiving{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 909px ){
+  .receiving{
+    font-size: 10px;
+    padding-top: 29px;
+    height: 13%;
+  }
+  .receiving-info_name{
+    font-size: 20px;
+    margin: 26px 0 13px 0;
+  }
+  .button_receiving{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 702px ){
+  .receiving-info_name {
+    font-size: 15px;
+    margin: 15px 0 13px 0;
+  }
+  .receiving {
+    font-size: 9px;
+    padding-top: 18px;
+    height: 12%;
+  }
+  .button_receiving {
+    font-size: 10px;
+    height: 5%;
+  }
+}
+@media screen and (max-width: 625px ){
+  .receiving {
+    font-size: 8px;
+    padding-top: 12px;
+    height: 13%;
+  }
+}
+@media screen and (max-width: 521px ){
+  .receiving {
+    font-size: 6px;
+    padding-top: 9px;
+  }
+  .receiving-info_name{
+    font-size: 10px;
+  }
+  .button_receiving{
+    font-size: 7px;
+    letter-spacing: 0;
+  }
+}
+@media screen and (max-width: 393px ){
+  .receiving {
+    font-size: 5px;
+    padding-top: 3px;
+  }
+  .receiving-info_name {
+    font-size: 8px;
+  }
+  .button_receiving{
+    font-size: 6px;
+    height: 5%;
+  }
+}

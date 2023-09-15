@@ -1,0 +1,422 @@
+
+.about{
+  position: absolute;
+  top: 7%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 132%; 
+  text-transform: uppercase;
+}
+.container_edication{
+  background: linear-gradient(to bottom,  #B7C7F3  0,20%,#83b7f3 100%);
+  position: relative;
+  text-align: center;
+  margin-bottom: 0;
+}
+.edication{
+  display: flex;
+}
+.edication_text{
+  position: absolute;
+  top: 56%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  color: #FCFCFC;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  text-transform: uppercase;
+}
+.edication_inform{
+  margin-top: -6px;
+}
+.edication_diplom{
+  width: 84%;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  text-transform: uppercase;
+  margin-top: 231px;
+}
+
+.edication_foto{
+  width: 87%;
+  margin-left: -105px;
+}
+
+.mandala_half{
+  mix-blend-mode: color-burn;
+  position: absolute;
+  right: 0;
+  width: 22%;
+}
+.edication_diplom-secret{
+  color: #292424;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -1.8px;
+  text-transform: uppercase;
+  margin-top: 220px;
+  margin-right: 164px;
+}
+
+.arrow{
+  margin-right: 179px;
+  margin-top: 99px;
+}
+
+@media screen and (max-width: 1804px ){
+  .about{    
+    font-size: 37px;
+  }
+  .edication_text{
+    font-size: 37px;
+  }
+  .edication_diplom{
+    font-size: 37px;
+  }
+  .edication_diplom-secret{
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 1804px ){
+  .about{    
+    font-size: 37px;
+  }
+  .edication_text{
+    font-size: 37px;
+  }
+  .edication_diplom{
+    font-size: 37px;
+  }
+  .edication_diplom-secret{
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 1378px ){
+  .about{    
+    font-size: 30px;
+  }
+  .edication_text{
+    font-size: 30px;
+  }
+  .edication_diplom{
+    font-size: 30px;
+  }
+  .edication_diplom-secret{
+    font-size: 30px;
+    margin-top: 135px;
+    margin-right: 113px;
+  }
+  .arrow {
+    margin-right: 95px;
+  }
+}
+@media screen and (max-width: 1200px ){
+  .about{    
+    font-size: 25px;
+  }
+  .edication_text{
+    font-size: 25px;
+  }
+  .edication_diplom{
+    font-size: 25px;
+  }
+  .edication_diplom-secret{
+    font-size: 25px;
+  }
+
+}
+@media screen and (max-width: 1075px ){
+  .about{    
+    font-size: 20px;
+  }
+  .edication_text{
+    font-size: 20px;
+  }
+  .edication_diplom{
+    font-size: 20px;
+  }
+  .edication_diplom-secret{
+    font-size: 20px;
+  }
+  .arrow {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 906px){
+.edication_diplom {
+    margin-top: 113px;
+  }
+}
+
+@media screen and (max-width: 859px){
+  section {
+    margin-bottom: 70px;
+  }
+  .about{    
+    font-size: 18px;
+  }
+  .edication_text{
+    font-size: 18px;
+  }
+  .edication_diplom{
+    font-size: 18px;
+  }
+  .edication_diplom-secret{
+    font-size: 18px;
+    margin-right: 36px;
+  }
+  .arrow {
+    height: 80px;
+    margin-right: 48px;
+    margin-top: 75px;
+  }
+  .mandala_half{
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 681px){
+  section {
+    margin-bottom: 47px;
+  }
+  .about{    
+    font-size: 15px;
+  }
+  .edication_text{
+    font-size: 15px;
+    left: 27%;
+  }
+  .edication_diplom{
+    font-size: 15px;
+    margin-top: 48px;
+  }
+  .edication_diplom-secret{
+    font-size: 15px;
+    margin-right: 36px;
+  }
+  .arrow {
+    height: 61px;
+    margin-right: 34px;
+    margin-top: 75px;
+  }
+  .mandala_half{
+    width: 18%;
+  }
+}
+@media screen and (max-width: 540px){
+  section {
+    margin-bottom: 21px;
+  }
+  .about{    
+    font-size: 10px;
+  }
+  .edication-inform_text{
+    margin-right: 49px;
+    margin-left: -97px;
+  }
+  
+  .edication_text{
+    font-size: 10px;
+    left: 27%;
+    letter-spacing: 0;
+  }
+  .edication_diplom{
+    font-size: 10px;
+    margin-top: 48px;
+    letter-spacing: 0;
+  }
+  .edication_diplom-secret{
+    font-size: 10px;
+    margin-right: 36px;
+    letter-spacing: 0;
+  }
+  .arrow {
+    height: 61px;
+    margin-right: 34px;
+    margin-top: 75px;
+  }
+  .mandala_half{
+    width: 18%;
+  }
+  .edication_foto {
+    width: 75%;
+    margin-left: -173px;
+}
+}
+
+@media screen and (max-width: 528px){
+  section {
+    margin-bottom: 58px;
+  }
+  .edication_diplom-secret{
+    margin-top: 109px;
+  }
+}
+@media screen and (max-width: 486px){
+  section {
+    margin-bottom: 27px;
+  }
+  .edication_diplom-secret{
+    font-size: 8px;
+    margin-top: 93px;
+  }
+  .about{
+    font-size: 8px;
+  }
+  .edication_text {
+    font-size: 8px;
+    left: 22%;
+  }
+  .edication_foto {
+    width: 63%;
+  }
+  .edication_diplom {
+    font-size: 8px;
+    margin-top: 47px;
+  }
+}
+@media screen and (max-width: 486px){
+  section {
+    margin-bottom: 27px;
+  }
+  .edication_diplom-secret{
+    font-size: 8px;
+    margin-top: 93px;
+  }
+  .about{
+    font-size: 8px;
+  }
+  .edication_text {
+    font-size: 8px;
+    left: 22%;
+  }
+  .edication_foto {
+    width: 63%;
+  }
+  .edication_diplom {
+    font-size: 8px;
+    margin-top: 47px;
+  }
+}
+
+@media screen  and (max-width: 468px){
+  .edication_diplom {
+    margin-top: 8px;
+  }
+  .edication_foto {
+    width: 53%;
+    margin-left: -189px;
+  }
+  .edication_diplom-secret {
+    font-size: 8px;
+  }
+  .arrow{
+    margin-top: 35px; 
+    height: 43px
+  }
+}
+@media screen and (max-width: 500px){
+  section {
+    margin-bottom: 41px;
+  }
+}
+@media screen and (max-width: 477px){
+  section {
+    margin-bottom: 12px;
+  }
+}
+@media screen and (max-width: 443px){
+  section {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 432px){
+  section {
+    margin-bottom: 25px;
+  }
+  .edication_foto {
+    width: 47%;
+  }
+  .edication_diplom-secret {
+    margin-top: 63px;
+  }
+}
+@media screen and (max-width: 412px){
+  section {
+    margin-bottom: 29px;
+  }
+  .edication_diplom-secret {
+    margin-top: 43px;
+}
+}
+@media screen and (max-width: 395px){
+  section {
+    margin-bottom: 4px;
+  }
+}
+@media screen and (max-width: 364px){
+  section {
+    margin-bottom: 8px;
+  }
+  .edication_diplom-secret{
+    font-size: 6px;
+  }
+  .about{
+    font-size: 6px;
+  }
+  .edication_text {
+    font-size: 6px;
+  }
+  .edication_foto {
+    width: 44%;
+  }
+  .edication_diplom {
+    font-size: 6px;
+    margin-top: 28px;
+  }
+  .edication-inform_text {
+    margin-right: 35px;
+    margin-left: -101px;
+  }
+}
+@media screen and (max-width: 357px){
+  section {
+    margin-bottom: 9px;
+  }
+  .edication_foto {
+    width: 58%;
+    margin-left: -158px;
+  }
+  .edication-inform_text {
+    margin-right: 48px;
+    margin-left: -135px;
+  }
+  .edication_diplom{
+    margin-right: 76px;
+    margin-left: -13px;
+  }
+}
+@media screen and (max-width: 345px){
+  section {
+    margin-bottom: 3px;
+  }
+  .edication_foto {
+    width: 44%;
+    margin-left: -191px;
+  }
+  .arrow {
+    margin-top: 32px;
+    height: 30px;
+  }
+}
