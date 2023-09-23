@@ -35,7 +35,7 @@
   margin-top: -6px;
 }
 .edication_diplom{
-  width: 84%;
+  width: 94%;
   color: #000;
   text-align: center;
   font-size: 40px;
@@ -47,8 +47,9 @@
 }
 
 .edication_foto{
-  width: 87%;
-  margin-left: -105px;
+  width: 120%;
+  margin-top: 6px;
+  margin-left: -122px;
 }
 
 .mandala_half{
@@ -71,6 +72,16 @@
 .arrow{
   margin-right: 179px;
   margin-top: 99px;
+}
+
+.foto_family{
+  display: flex;
+}
+.family{
+  display: none;
+}
+.me_image{
+  width: 100%;
 }
 
 @media screen and (max-width: 1804px ){
@@ -168,6 +179,7 @@
   }
   .edication_text{
     font-size: 18px;
+    left: 32%;
   }
   .edication_diplom{
     font-size: 18px;
@@ -184,26 +196,38 @@
   .mandala_half{
     width: 18%;
   }
+  .edication_foto{
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 681px){
+  .edication-inform_text{
+    margin-left: 0;
+  }
   section {
     margin-bottom: 47px;
   }
   .about{    
-    font-size: 15px;
+    font-size: 10px;
+    left: 41%;
+    top: 3%;
   }
   .edication_text{
-    font-size: 15px;
-    left: 27%;
+    font-size: 20px;
+    left: 56%;
+    top: 32%;
   }
   .edication_diplom{
+    width: 100%;
     font-size: 15px;
     margin-top: 48px;
   }
   .edication_diplom-secret{
     font-size: 15px;
     margin-right: 36px;
+    margin-top: 87px;
   }
   .arrow {
     height: 61px;
@@ -212,6 +236,16 @@
   }
   .mandala_half{
     width: 18%;
+  }
+  .me_image{
+    width: 64%;
+  }
+  .family{
+    display:block;
+    width: 36%;
+  }
+  .edication{
+    display: block;
   }
 }
 @media screen and (max-width: 540px){
@@ -221,24 +255,25 @@
   .about{    
     font-size: 10px;
   }
-  .edication-inform_text{
-    margin-right: 49px;
-    margin-left: -97px;
+  .edication-inform_text {
+    width: 80%;
+    margin-right: -4%;
+    margin-left: 10%;
   }
   
-  .edication_text{
-    font-size: 10px;
-    left: 27%;
+  .edication_text {
+    font-size: 17px;
+    left: 51%;
     letter-spacing: 0;
   }
   .edication_diplom{
-    font-size: 10px;
+    width: 98%;
+    font-size: 15px;
     margin-top: 48px;
     letter-spacing: 0;
   }
   .edication_diplom-secret{
     font-size: 10px;
-    margin-right: 36px;
     letter-spacing: 0;
   }
   .arrow {
@@ -249,18 +284,11 @@
   .mandala_half{
     width: 18%;
   }
-  .edication_foto {
-    width: 75%;
-    margin-left: -173px;
-}
 }
 
 @media screen and (max-width: 528px){
   section {
     margin-bottom: 58px;
-  }
-  .edication_diplom-secret{
-    margin-top: 109px;
   }
 }
 @media screen and (max-width: 486px){
@@ -269,7 +297,6 @@
   }
   .edication_diplom-secret{
     font-size: 8px;
-    margin-top: 93px;
   }
   .about{
     font-size: 8px;
@@ -277,9 +304,6 @@
   .edication_text {
     font-size: 8px;
     left: 22%;
-  }
-  .edication_foto {
-    width: 63%;
   }
   .edication_diplom {
     font-size: 8px;
@@ -292,7 +316,6 @@
   }
   .edication_diplom-secret{
     font-size: 8px;
-    margin-top: 93px;
   }
   .about{
     font-size: 8px;
@@ -300,9 +323,6 @@
   .edication_text {
     font-size: 8px;
     left: 22%;
-  }
-  .edication_foto {
-    width: 63%;
   }
   .edication_diplom {
     font-size: 8px;
@@ -313,10 +333,6 @@
 @media screen  and (max-width: 468px){
   .edication_diplom {
     margin-top: 8px;
-  }
-  .edication_foto {
-    width: 53%;
-    margin-left: -189px;
   }
   .edication_diplom-secret {
     font-size: 8px;
@@ -345,20 +361,11 @@
   section {
     margin-bottom: 25px;
   }
-  .edication_foto {
-    width: 47%;
-  }
-  .edication_diplom-secret {
-    margin-top: 63px;
-  }
 }
 @media screen and (max-width: 412px){
   section {
     margin-bottom: 29px;
   }
-  .edication_diplom-secret {
-    margin-top: 43px;
-}
 }
 @media screen and (max-width: 395px){
   section {
@@ -378,29 +385,14 @@
   .edication_text {
     font-size: 6px;
   }
-  .edication_foto {
-    width: 44%;
-  }
   .edication_diplom {
     font-size: 6px;
     margin-top: 28px;
-  }
-  .edication-inform_text {
-    margin-right: 35px;
-    margin-left: -101px;
   }
 }
 @media screen and (max-width: 357px){
   section {
     margin-bottom: 9px;
-  }
-  .edication_foto {
-    width: 58%;
-    margin-left: -158px;
-  }
-  .edication-inform_text {
-    margin-right: 48px;
-    margin-left: -135px;
   }
   .edication_diplom{
     margin-right: 76px;
@@ -410,10 +402,6 @@
 @media screen and (max-width: 345px){
   section {
     margin-bottom: 3px;
-  }
-  .edication_foto {
-    width: 44%;
-    margin-left: -191px;
   }
   .arrow {
     margin-top: 32px;
