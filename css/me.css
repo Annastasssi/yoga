@@ -330,18 +330,7 @@
   }
 }
 
-@media screen  and (max-width: 468px){
-  .edication_diplom {
-    margin-top: 8px;
-  }
-  .edication_diplom-secret {
-    font-size: 8px;
-  }
-  .arrow{
-    margin-top: 35px; 
-    height: 43px
-  }
-}
+
 @media screen and (max-width: 500px){
   section {
     margin-bottom: 41px;
