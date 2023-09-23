@@ -33,7 +33,10 @@
   text-transform: uppercase;
   border-radius: 18px;
   height: 13%;
-  padding-top: 20px;
+  padding-top: 6%;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  padding-right: 4%;
 }
 .button_receiving{
   margin: 50px 0 10px 6px;
@@ -75,8 +78,6 @@
 @media screen and (max-width: 1400px ){
   .receiving{
     font-size: 20px;
-    height: 14%;
-    padding-top: 27px;
   }
   .button_receiving{
     margin: 0;
@@ -97,8 +98,6 @@
 @media screen and (max-width: 1233px ){
   .receiving {
     font-size: 17px;
-    height: 12%;
-    padding-top: 30px;
   }
   .button_receiving{
     font-size: 20px;
@@ -110,15 +109,11 @@
 @media screen and (max-width: 1182px ){
   .receiving {
     font-size: 15px;
-    padding-top: 23px;
-    height: 13%;
   }
 }
 @media screen and (max-width: 999px ){
   .receiving{
     font-size: 13px;
-    padding-top: 20px;
-    height: 12%;
   }
   .button_receiving{
     font-size: 13px;
@@ -126,9 +121,7 @@
 }
 @media screen and (max-width: 909px ){
   .receiving{
-    font-size: 10px;
-    padding-top: 29px;
-    height: 13%;
+    font-size: 10px; 
   }
   .receiving-info_name{
     font-size: 20px;
@@ -145,8 +138,6 @@
   }
   .receiving {
     font-size: 9px;
-    padding-top: 18px;
-    height: 12%;
   }
   .button_receiving {
     font-size: 10px;
@@ -156,14 +147,11 @@
 @media screen and (max-width: 625px ){
   .receiving {
     font-size: 8px;
-    padding-top: 12px;
-    height: 13%;
   }
 }
 @media screen and (max-width: 521px ){
   .receiving {
     font-size: 6px;
-    padding-top: 9px;
   }
   .receiving-info_name{
     font-size: 10px;
@@ -176,10 +164,10 @@
 @media screen and (max-width: 393px ){
   .receiving {
     font-size: 5px;
-    padding-top: 3px;
   }
   .receiving-info_name {
     font-size: 8px;
+    margin: 8px 0 5px 0;
   }
   .button_receiving{
     font-size: 6px;
